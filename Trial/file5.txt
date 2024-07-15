@@ -1,0 +1,22 @@
+﻿
+
+15
+TUSTUO
+PROGRAM-5
+Write a random number generator that generates random numbers between 1 and 6 (Simulates a dice).
+AIM:
+To create a random number generator that generates a random number between 1 and 6.
+PROGRAM CODE:
+Print ("IMAGINARY DICE")
+import ( random, time )
+C=Tone
+While C:
+print ("Dice rolling...\n")
+time.sleep(2)
+a=random.randint (1,6) JOTOND SNOW SOH print (a)
+b=input ("\n Do you want to roll the dice once more (y/n)?")
+if b== 'y':
+continue
+else:
+C=False
+print ("In GAME OVER...") NOT

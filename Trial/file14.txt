@@ -1,0 +1,21 @@
+﻿
+
+33
+PROGRAM-10
+Write a python program to create a CSV file by entering user-id and password, read and search the password for given userid.
+AIM:
+To create a csv file by entering user-id and password, read and search the password.
+PROGRAM CODE:
+import csv
+with open("user- info. csv", "w") as obj: fileobj = CSV. writer (obj)
+file obj⋅ writerow(["User_ID", "Password"])
+While True:
+user_id=input("Enter ID")
+password= input("Enter password:") record=[user_id, password]
+file obj. writerow (record)
+X=input ("Press Yly to continue or N/n to terminate the program:\n")
+if x in "Nn":
+break
+elif x in "Yy":
+continue
+with open(" user_info.csv", "y") as obj1: fileobj1 = csv. reader (obj1)

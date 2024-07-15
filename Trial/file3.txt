@@ -1,0 +1,17 @@
+﻿
+
+11
+PROGRAM-4
+Write a program to create a binary file with name and roll number. Search for a given roll number and display the name, if not found display appropriate message.
+AIM:
+To create a binary file with name and roll number. Search for a given roll number and display the name, if not found display appropriate message.
+PROGRAM CODE:
+import pickle
+myfile = open("Student.dat", "wb+") n=int(input("" No. of records: "))
+d={}
+for i in range (1, h+1):
+print ("(", i, ")")
+name=input (" Name of the Student:") rollno= int(input (" Roll No. :")) d [roll no] = name
+pickle. dump (d, myfile).
+myfile.close()
+myfile = open ("Student dat", "db+") a=int(input ("Enter the roll no. to search:")) be pickle.load (myfile)

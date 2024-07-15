@@ -1,0 +1,25 @@
+﻿
+
+PROGRAM-3
+abkines to
+9
+Write a program to remove all the lines that Contain the character 'a' in a file and write. it to another file.
+AIM:
+lineet to
+To remove all the lines that contain the 'a' in a file and write it to another file.
+PROGRAM CODE:
+:
+myfile= open("D:\\ Files.txt","y") a= myfile.readlines ()
+C= []
+d = [] foriina:
+if 'a' in i:
+C. append(i)
+else:
+d. append(i)
+myfile.close()
+myfile1 = open("D:\\ File 1.txt", "w")
+myfiles. Writelines (C)
+myfile1.close()
+D:\\ Files2.txt", "w")
+myfile2 = open(" myfiled. Writelines (d) myfilea. close()
+0

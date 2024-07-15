@@ -1,0 +1,13 @@
+﻿
+
+3
+PROGRAM-1
+Write a program to read and display file. content line by line with each word separated by a '#!
+AIM:
+To read a text file line by line and display each word separated by a '#'
+PROGRAM CODE:
+myfile = open("D:\ India. txt", "y") line=""
+while line:
+line=myfile.readline ()
+for word in line. Split (): print (word, end=""#")
+print () myfile.close()

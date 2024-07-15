@@ -1,0 +1,18 @@
+﻿
+
+21
+PROGRAM-7
+Write a python function to write and read the file 'PRODUCT. CSV' with the data given below:
+The first record of the file should be "PID, PNAME, COST, QUANTITY?
+Sample of PRODUCT. csv is given below: P1, BRUSH, 50, 200
+AIM:
+P2, TOOTHPASTE, 120, 150 P3, SOAP, 40,300
+P4, SHEETS, 100, 500 P5, PEN, 10, 250."
+To read and write the file 'PRODUCT.CSV' with the given data.
+PROGRAM CODE:
+import csv
+prodata= [["PID", "PNAME", "COST", "QUANTITY"], I"P", "BRUSH", 50, 200],
+А
+1
+[ "P" "TOOTHPASTE", 120, 150],
+["P" "SOAP", 40,300], ["P", "SHEETS", 100, 500], ,, [ "P", "PEN", 10, 250]]

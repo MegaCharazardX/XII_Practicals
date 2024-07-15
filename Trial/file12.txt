@@ -1,0 +1,14 @@
+﻿
+
+3
+35
+given=input ("Enter the user-id to be Searched\n")
+for i in fileobj1:0 no wire
+The next (file obj1)
+if i[0] == given:
+print ("Password is", i[1])
+gontbreak NY AND
+else:
+А
+print ("No record matches with the
+given user-id")
