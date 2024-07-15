@@ -1,8 +1,0 @@
-﻿
-
-13
-if a in b⋅ keys ():
-print ("The name of the student with. given roll no.", a," is", b[a]") by Jillo 4 SIC else:
-print (" No record matches with the given roll no."); oll no."); flow of th
-myfile.close()
-ASSON SIND soils gift Hos of
